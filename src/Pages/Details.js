@@ -209,7 +209,7 @@ const Details = ({ match }) => {
                         <GoogleMapReact
                             style={{ height: "100vh" }}
                             bootstrapURLKeys={{
-                                key: "AIzaSyB_JzlosDmL4dk4PM5M-Id8yyyTp76M2nU",
+                                key: `${process.env.REACT_APP_MAP_KEY}`,
                                 language: "en",
                             }}
                             defaultCenter={defaultProps.center}
